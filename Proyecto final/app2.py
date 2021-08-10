@@ -1,7 +1,7 @@
 from re import M
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 from flask_mysqldb import MySQL,MySQLdb
-
+#coneccion con la base de datos
 app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
